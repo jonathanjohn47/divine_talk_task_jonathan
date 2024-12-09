@@ -6,7 +6,6 @@ class HomeGetController extends GetxController {
 
   //RxBool to hold the loading state of the application. This observable will be used to show the CircularProgressIndicator in the UI
   RxBool isLoading = true.obs;
-
   //Note that the computation in this case is very fast, so the CircularProgressIndicator might not be visible.
 
   void countEvenNumbers() async {
